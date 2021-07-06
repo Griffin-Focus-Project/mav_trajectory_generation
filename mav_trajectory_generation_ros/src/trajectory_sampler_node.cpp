@@ -76,7 +76,7 @@ void TrajectorySamplerNode::pathSegments4DCallback(
     return;
   } else {
     //ROS_INFO("Trajectory sampler: received %lu waypoints",
-             segments_message.segments.size());
+           //  segments_message.segments.size());
   }
 
     bool success = mav_trajectory_generation::polynomialTrajectoryMsgToTrajectory(
